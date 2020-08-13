@@ -14,7 +14,7 @@ module.exports = function (url) {
         waitUntil: ['load', 'networkidle0', 'domcontentloaded']
       })
 
-      await page.waitFor(30000)
+      await page.waitFor(1000)
 
       await page.emulateMedia('screen')
 
